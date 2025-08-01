@@ -2,7 +2,7 @@
 <html lang="pt-BR">
 <head>
   <meta charset="UTF-8">
-  <title>Meus Links</title>
+  <title>Meus Projetos</title>
   <style>
     body {
       font-family: Arial, sans-serif;
@@ -20,7 +20,7 @@
       margin-bottom: 30px;
     }
 
-    a {
+    .link-btn {
       text-decoration: none;
       color: #fff;
       background-color: #0052cc;
@@ -30,19 +30,29 @@
       font-size: 16px;
       transition: background-color 0.3s ease;
       box-shadow: 0 4px 8px rgba(0,0,0,0.1);
-      width: 260px;
+      width: 280px;
       text-align: center;
+      display: block;
     }
 
-    a:hover {
+    .link-btn:hover {
       background-color: #003d99;
     }
   </style>
 </head>
 <body>
   <h1>Meus Projetos</h1>
-  <a href="https://index-html-swart-six.vercel.app/" target="_blank">🔹 Index HTML</a>
-  <a href="https://codigo-barras-vert.vercel.app/" target="_blank">🔹 Código de Barras</a>
-  <a href="https://pix-gold-five.vercel.app/" target="_blank">🔹 Gerador Pix</a>
+
+  <a class="link-btn" href="https://index-html-swart-six.vercel.app/" target="_blank">
+    🔹 Index HTML
+  </a>
+
+  <a class="link-btn" href="https://codigo-barras-vert.vercel.app/" target="_blank">
+    🔹 Código de Barras
+  </a>
+
+  <a class="link-btn" href="https://pix-gold-five.vercel.app/" target="_blank">
+    🔹 Gerador Pix
+  </a>
 </body>
 </html>
